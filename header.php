@@ -11,8 +11,6 @@
         <?php
             if(! is_page('landing-page')):
         ?>
-
-
         <section class="menu-area">
             <div class="conatiner">
                 <nav class="main-menu">
@@ -21,15 +19,11 @@
                             <div class="bar1"></div>
                             <div class="bar2"></div>
                             <div class="bar3"></div>
-
-
                         </div>
                     </button>
                     <?php wp_nav_menu(array('theme_location'=>'wp_devs_main_menu','depth'=>2));?>
                 </nav>
             </div>
-
-
         </section>
         <?php endif;?>
     </header>
